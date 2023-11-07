@@ -1,0 +1,33 @@
+config:
+  digitalocean:spaces_access_id: DO004RBZG6Q9YAVMNYYX
+  digitalocean:spaces_secret_key:
+    secure: AAABAO2Ogoo5/jgu+WUjCvDObZJpRAlq6OqGJ0JaYGixo8hfGbzAwWE8NXgF6sjUNwzR1GuhUwouAa/r+VOOhIKO/NRYb0o3PGze
+  digitalocean:token:
+    secure: AAABAAeaC1T2qnIG/cEpBFUdHCYFzJCcuYkUVqX3DCganj41PbOJp0t3gqmWRhk8i+6J6n2RwBbmUzPhNzFlJ+DU3dPMHI7Mdd3DNfV3wvbiToBTgUfDnZ9i1uXAKAwMQxB9KOKBSA==
+  outline-infra:database_url-string: '${outline-db.DATABASE_URL}'
+  outline-infra:do-region: sfo3
+  outline-infra:domain: outline.cdiaz.cloud
+  outline-infra:fqdn: https://outline.cdiaz.cloud
+  outline-infra:from-email: noreply@cdiaz.cloud
+  outline-infra:sa-access-key-id:
+    secure: AAABAE8H7SnLll7lnTHto6pajquY6Y97a/xTNU6Mq2dbXGb6flnwpFqZasF5ZGJR3df9Hg==
+  outline-infra:sa-secret-access-key:
+    secure: AAABACInhB0p1Gckjr+R0Qr3SJq8pPHtt2Ov+MMbCmqgg+RjTFMBxcJyj5Jamrzdsn+g7AOTxVUDGLif+oz+HPdzO6guu37KoX2m
+  outline-infra:secret-key:
+    secure: AAABACyogqGXHI+grqiDaAq30khpp7HKE6PT4upkisrOe0EWTnPlnxRWMIEYR9gTUVQCVFuvrXI6kimTpYSdioI+rLk06kNocJPnLYs6u0kCGmLMoEBUIibLpoViwx9h
+  outline-infra:slack-app-id:
+    secure: AAABALyi7B6wth+QTbi9uAdudQf5+hjGhM+RfyG/qwAfbZoLweUucUUOgA==
+  outline-infra:slack-client-id:
+    secure: AAABALwp0diCrRNsjWza6Mzwyr7gH4CzK1n/+vqUmw2DO4WWhfTTnlBohoA1UxWHJQSTOSKtLLU8wz0=
+  outline-infra:slack-client-secret:
+    secure: AAABAHzKfIxk5zf6ttPhY//G31FdjnaMoJYKZ7IdZEEdv3Q5gT1hV7cKs76TI26vqlSADKbCswsSzuZxPtPz6w==
+  outline-infra:slack-verification-token:
+    secure: AAABACEHffMoVWpzlnwe2acK+zj7PXgTyncWXBmAKb8tgR/slyQXSdTwA9uIFJCT8vb7HlJv0GI=
+  outline-infra:smtp-host: email-smtp.us-west-2.amazonaws.com
+  outline-infra:smtp-password:
+    secure: AAABAHdjADxZUlXaNNhq+z6TOvYl4G0nNJsO9vXYhjZzhAZFOuPgdioPOIJwuRLUNMyGcQkQPBG9znTL6Q8WaBhJ/I+52LDEZuKksA==
+  outline-infra:smtp-port: "465"
+  outline-infra:smtp-username:
+    secure: AAABAMDMNiI5PKP8Qf2l6gkRht+/4zgojMe9F6muwFr+g8ZznixGKyRqksbvPGHGqugJ+w==
+  outline-infra:utils-secret:
+    secure: AAABAEOUu7aM+d+TkX6BcpFDUmi+1OHMeW+Hm3XWuZGy0CxosNpEB7Ewi2SJJGxqrsZmwSui/rCXyct84xwSx1jEpdG6KbcKCdBny/Ci6uy93MxCDT6ryYUhETcthlM4
