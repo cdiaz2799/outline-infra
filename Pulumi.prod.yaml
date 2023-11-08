@@ -1,4 +1,7 @@
 config:
+  cf:zoneId: 0d47d2a215cad86e025160270db4260b
+  cloudflare:apiToken:
+    secure: AAABAMyhv4TkAX6736wjoU1o6BmLQEuqv8euimh+66gKkanJgS8Q07zdyYfXvA/hIfs6/g9fdCurxFWD85zp22xR1ATegJ1s
   digitalocean:spaces_access_id: DO004RBZG6Q9YAVMNYYX
   digitalocean:spaces_secret_key:
     secure: AAABAO2Ogoo5/jgu+WUjCvDObZJpRAlq6OqGJ0JaYGixo8hfGbzAwWE8NXgF6sjUNwzR1GuhUwouAa/r+VOOhIKO/NRYb0o3PGze
@@ -23,11 +26,11 @@ config:
     secure: AAABAHzKfIxk5zf6ttPhY//G31FdjnaMoJYKZ7IdZEEdv3Q5gT1hV7cKs76TI26vqlSADKbCswsSzuZxPtPz6w==
   outline-infra:slack-verification-token:
     secure: AAABACEHffMoVWpzlnwe2acK+zj7PXgTyncWXBmAKb8tgR/slyQXSdTwA9uIFJCT8vb7HlJv0GI=
-  outline-infra:smtp-host: email-smtp.us-west-2.amazonaws.com
+  outline-infra:smtp-host: smtp.protonmail.ch
   outline-infra:smtp-password:
-    secure: AAABAHdjADxZUlXaNNhq+z6TOvYl4G0nNJsO9vXYhjZzhAZFOuPgdioPOIJwuRLUNMyGcQkQPBG9znTL6Q8WaBhJ/I+52LDEZuKksA==
-  outline-infra:smtp-port: "465"
+    secure: AAABAHB1OoTBMUZCpmFq7HF4s8eZAbID+XCkRfpSxMUXj0v5jhoCuzqo222NhdN+
+  outline-infra:smtp-port: "587"
   outline-infra:smtp-username:
-    secure: AAABAMDMNiI5PKP8Qf2l6gkRht+/4zgojMe9F6muwFr+g8ZznixGKyRqksbvPGHGqugJ+w==
+    secure: AAABAI7du4IvFtL/7gr1kfMr2ApF9gt2AKGi++RwJfn538rEdZVIN0c7TbgMVXNxhIDO
   outline-infra:utils-secret:
     secure: AAABAEOUu7aM+d+TkX6BcpFDUmi+1OHMeW+Hm3XWuZGy0CxosNpEB7Ewi2SJJGxqrsZmwSui/rCXyct84xwSx1jEpdG6KbcKCdBny/Ci6uy93MxCDT6ryYUhETcthlM4

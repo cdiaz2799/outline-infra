@@ -3,4 +3,4 @@ runtime:
   name: python
   options:
     virtualenv: venv
-description: Outline Wiki in DigitalOcean
+description: Outline Wiki on DigitalOcean App Platform

@@ -3,7 +3,7 @@ import pulumi_digitalocean as digitalocean
 
 from bucket import bucket
 from outline_redis import redis_instance
-from project import region
+from project import outline_project, region
 
 # Setup Config
 config = pulumi.Config()
@@ -239,7 +239,16 @@ outline_app = digitalocean.App(
             )
         ],
     ),
-    opts=pulumi.ResourceOptions(depends_on=[bucket, redis_instance]),
+    opts=pulumi.ResourceOptions(
+        depends_on=[bucket, redis_instance], parent=outline_project
+    ),
+)
+
+project_attachment = digitalocean.ProjectResources(
+    'app-project-attachment',
+    project=outline_project.id,
+    resources=[outline_app.app_urn],
+    opts=pulumi.ResourceOptions(parent=outline_app),
 )
 
 # Setup Outputs

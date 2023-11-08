@@ -13,7 +13,7 @@ bucket = digitalocean.SpacesBucket(
     name='outline-s3',
     region=region,
     acl='private',
-    opts=pulumi.ResourceOptions(protect=True),
+    opts=pulumi.ResourceOptions(protect=True, parent=outline_project),
 )
 
 
