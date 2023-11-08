@@ -78,6 +78,9 @@ outline_app = digitalocean.App(
             digitalocean.AppSpecServiceArgs(
                 envs=[
                     digitalocean.AppSpecServiceEnvArgs(
+                        key='FILE_STORAGE',
+                        value='s3'),
+                    digitalocean.AppSpecServiceEnvArgs(
                         key='AWS_REGION',
                         value=bucket.region,
                     ),
@@ -196,12 +199,12 @@ outline_app = digitalocean.App(
                         value=slack_app_id,
                     ),
                     digitalocean.AppSpecServiceEnvArgs(
-                        key='SLACK_CLIENT_ID',
+                        key='SLACK_KEY',
                         type='SECRET',
                         value=slack_client_id,
                     ),
                     digitalocean.AppSpecServiceEnvArgs(
-                        key='SLACK_CLIENT_SECRET',
+                        key='SLACK_SECRET',
                         type='SECRET',
                         value=slack_client_secret,
                     ),
