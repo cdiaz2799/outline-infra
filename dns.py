@@ -25,4 +25,4 @@ record = Record(
 )
 
 # Setup Output
-pulumi.export('app-url', lambda url: "https://" + record.hostname)
+pulumi.export('app-url', lambda url: 'https://' + record.hostname)

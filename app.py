@@ -20,6 +20,9 @@ slack_app_id = config.require_secret('slack-app-id')
 slack_client_id = config.require_secret('slack-client-id')
 slack_client_secret = config.require_secret('slack-client-secret')
 slack_verification_token = config.require_secret('slack-verification-token')
+bucket_url = bucket.bucket_domain_name.apply(
+    lambda dns_name: f'https://{dns_name}'
+)
 
 # Retrieve Secrets
 access_key_id = config.require_secret('sa-access-key-id')
@@ -78,8 +81,8 @@ outline_app = digitalocean.App(
             digitalocean.AppSpecServiceArgs(
                 envs=[
                     digitalocean.AppSpecServiceEnvArgs(
-                        key='FILE_STORAGE',
-                        value='s3'),
+                        key='FILE_STORAGE', value='s3'
+                    ),
                     digitalocean.AppSpecServiceEnvArgs(
                         key='AWS_REGION',
                         value=bucket.region,
@@ -90,7 +93,7 @@ outline_app = digitalocean.App(
                     ),
                     digitalocean.AppSpecServiceEnvArgs(
                         key='AWS_S3_UPLOAD_BUCKET_URL',
-                        value=f'https://{bucket.bucket_domain_name}',
+                        value=bucket_url,
                     ),
                     digitalocean.AppSpecServiceEnvArgs(
                         key='AWS_S3_FORCE_PATH_STYLE',
@@ -98,7 +101,7 @@ outline_app = digitalocean.App(
                     ),
                     digitalocean.AppSpecServiceEnvArgs(
                         key='AWS_S3_ACCELERATE_URL',
-                        value=f'https://{bucket.bucket_domain_name}',
+                        value=bucket_url,
                     ),
                     digitalocean.AppSpecServiceEnvArgs(
                         key='AWS_S3_UPLOAD_BUCKET_NAME',
@@ -194,17 +197,21 @@ outline_app = digitalocean.App(
                         key='SMTP_PASSWORD', type='SECRET', value=smtp_password
                     ),
                     digitalocean.AppSpecServiceEnvArgs(
+                        key='SMTP_TLS_CIPHERS',
+                        value='TLSv1.2',
+                    ),
+                    digitalocean.AppSpecServiceEnvArgs(
                         key='SLACK_APP_ID',
                         type='SECRET',
                         value=slack_app_id,
                     ),
                     digitalocean.AppSpecServiceEnvArgs(
-                        key='SLACK_KEY',
+                        key='SLACK_CLIENT_ID',
                         type='SECRET',
                         value=slack_client_id,
                     ),
                     digitalocean.AppSpecServiceEnvArgs(
-                        key='SLACK_SECRET',
+                        key='SLACK_CLIENT_SECRET',
                         type='SECRET',
                         value=slack_client_secret,
                     ),
