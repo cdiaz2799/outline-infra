@@ -13,9 +13,9 @@ config:
   outline-infra:fqdn: https://outline.cdiaz.cloud
   outline-infra:from-email: noreply@cdiaz.cloud
   outline-infra:sa-access-key-id:
-    secure: AAABAE8H7SnLll7lnTHto6pajquY6Y97a/xTNU6Mq2dbXGb6flnwpFqZasF5ZGJR3df9Hg==
+    secure: AAABAA88ToXY1SbtG4MTLy0hIGlAZ/vDs0yFEMbWvPT5zotTrzLkDrGMBfNACEfrUsSgSQ==
   outline-infra:sa-secret-access-key:
-    secure: AAABACInhB0p1Gckjr+R0Qr3SJq8pPHtt2Ov+MMbCmqgg+RjTFMBxcJyj5Jamrzdsn+g7AOTxVUDGLif+oz+HPdzO6guu37KoX2m
+    secure: AAABACILsbBNJ9iaDG8BbEA1msV9r0Scs7SSRVHHDPW6UDMHRlxLdOHHY6T1A1LBEsjAEFS+fA7jJSMrpMm1emaoRpdTI62we5C8
   outline-infra:secret-key:
     secure: AAABAF3xyFJ65s0J934doI/vDt8uDaGZ33XR3JyAal4PV6DFNXo9MzBsIig0wNLOzpEg92GxNrPX2nlpfPJYxMGG/sdDFqSNZw+ios5GgqxIKvdIFN9UVbqGmtaf+BOR
   outline-infra:slack-app-id:
