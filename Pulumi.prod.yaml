@@ -17,7 +17,7 @@ config:
   outline-infra:sa-secret-access-key:
     secure: AAABACInhB0p1Gckjr+R0Qr3SJq8pPHtt2Ov+MMbCmqgg+RjTFMBxcJyj5Jamrzdsn+g7AOTxVUDGLif+oz+HPdzO6guu37KoX2m
   outline-infra:secret-key:
-    secure: AAABACyogqGXHI+grqiDaAq30khpp7HKE6PT4upkisrOe0EWTnPlnxRWMIEYR9gTUVQCVFuvrXI6kimTpYSdioI+rLk06kNocJPnLYs6u0kCGmLMoEBUIibLpoViwx9h
+    secure: AAABAF3xyFJ65s0J934doI/vDt8uDaGZ33XR3JyAal4PV6DFNXo9MzBsIig0wNLOzpEg92GxNrPX2nlpfPJYxMGG/sdDFqSNZw+ios5GgqxIKvdIFN9UVbqGmtaf+BOR
   outline-infra:slack-app-id:
     secure: AAABAF4GtxVjgpb0uyNib122m4ShPLZTYBmumX2qbvWMElrt0WR/7n0wyQ==
   outline-infra:slack-client-id:
@@ -33,4 +33,4 @@ config:
   outline-infra:smtp-username:
     secure: AAABAI7du4IvFtL/7gr1kfMr2ApF9gt2AKGi++RwJfn538rEdZVIN0c7TbgMVXNxhIDO
   outline-infra:utils-secret:
-    secure: AAABAEOUu7aM+d+TkX6BcpFDUmi+1OHMeW+Hm3XWuZGy0CxosNpEB7Ewi2SJJGxqrsZmwSui/rCXyct84xwSx1jEpdG6KbcKCdBny/Ci6uy93MxCDT6ryYUhETcthlM4
+    secure: AAABAIECHk7f/y0V3r5sJhGw569fwT0x4B4JJouwyMgqCLfHXcif5cjncSxNoY39FKCsd/zAn5+EAv7rWRSTXfsxYE0FSbK/8DFgs1VTmCcnhCWm+zvifUS/1OGFgdqf
