@@ -19,13 +19,13 @@ config:
   outline-infra:secret-key:
     secure: AAABACyogqGXHI+grqiDaAq30khpp7HKE6PT4upkisrOe0EWTnPlnxRWMIEYR9gTUVQCVFuvrXI6kimTpYSdioI+rLk06kNocJPnLYs6u0kCGmLMoEBUIibLpoViwx9h
   outline-infra:slack-app-id:
-    secure: AAABALyi7B6wth+QTbi9uAdudQf5+hjGhM+RfyG/qwAfbZoLweUucUUOgA==
+    secure: AAABAF4GtxVjgpb0uyNib122m4ShPLZTYBmumX2qbvWMElrt0WR/7n0wyQ==
   outline-infra:slack-client-id:
-    secure: AAABALwp0diCrRNsjWza6Mzwyr7gH4CzK1n/+vqUmw2DO4WWhfTTnlBohoA1UxWHJQSTOSKtLLU8wz0=
+    secure: AAABAPYoyemewBJqjdBrs/Suy7GoXwsscTC1w23kJaWglKzUK20KqtlRRqQ3/+guNlD6BJgrdn5D0q8=
   outline-infra:slack-client-secret:
-    secure: AAABAHzKfIxk5zf6ttPhY//G31FdjnaMoJYKZ7IdZEEdv3Q5gT1hV7cKs76TI26vqlSADKbCswsSzuZxPtPz6w==
+    secure: AAABAGu308Jk2dow5NvSgE1nNytF9dzOy+xSYqrTkimvTm7nYZkTtCkWUEWsTx9GgiJBt4JUMxh+TxMEf1BLRg==
   outline-infra:slack-verification-token:
-    secure: AAABACEHffMoVWpzlnwe2acK+zj7PXgTyncWXBmAKb8tgR/slyQXSdTwA9uIFJCT8vb7HlJv0GI=
+    secure: AAABAFWLgjCapM6aJNsqiuMehWySNNPoQ/BeHd9VwxXnn/clUlmXFtp5fWoH+eRee/zl/kQhOZw=
   outline-infra:smtp-host: smtp.protonmail.ch
   outline-infra:smtp-password:
     secure: AAABAHB1OoTBMUZCpmFq7HF4s8eZAbID+XCkRfpSxMUXj0v5jhoCuzqo222NhdN+
